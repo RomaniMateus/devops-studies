@@ -1,0 +1,46 @@
+# Arquivo do plano de estudos
+plano-estudos.md
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# IDEs e editores
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Arquivos de ambiente
+.env
+.env.local
+
+# Diretórios de dependências e builds
+node_modules/
+dist/
+build/
+
+# Arquivos de log
+*.log
+logs/
+npm-debug.log*
+
+# Arquivos temporários
+*.tmp
+*.temp
+.cache/
+
+# Kubernetes
+kubeconfig
+*.kubeconfig
+
+# Binários
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Arquivos de backup
+*.bak
+*.backup
+*~ 
