@@ -3,7 +3,6 @@ plano-estudos.md
 
 # Arquivos do sistema
 .DS_Store
-Thumbs.db
 
 # IDEs e editores
 .idea/
@@ -11,28 +10,38 @@ Thumbs.db
 *.swp
 *.swo
 
-# Arquivos de ambiente
+# Kubernetes
+kubeconfig
+*.kubeconfig
+.kube/
+kind-config*
+minikube/
+
+# Argo
+.argo/
+.argocd/
+
+# Jsonnet
+*.jsonnet.json
+vendor/
+
+# Arquivos de ambiente e segredos
 .env
-.env.local
+*.secret
+*.key
+*.pem
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+.cache/
 
 # Diretórios de dependências e builds
 node_modules/
 dist/
 build/
-
-# Arquivos de log
-*.log
-logs/
-npm-debug.log*
-
-# Arquivos temporários
-*.tmp
-*.temp
-.cache/
-
-# Kubernetes
-kubeconfig
-*.kubeconfig
 
 # Binários
 *.exe
